@@ -1,0 +1,58 @@
+// custom-color-variable-create
+$black-color: #000;
+$white-color: #fff;
+$light-grey-color: rgb(236, 236, 236);
+
+// custom-value-variable-create
+$zero: 0;
+$five:5px;
+$ten: 10px;
+$twenty: 10px;
+$thirty: 10px;
+$fourty: 40px;
+$fifty: 50px;
+$sixty: 60px;
+$seventy: 70px;
+$eighty: 80px;
+$ninety: 90px;
+$hundred: 100px;
+
+// custom-width-variable-create
+$full-width:100%;
+
+
+header {
+  background-color: $light-grey-color;
+  .logo {
+    img {
+      max-width: $hundred;
+      height: auto;
+    }
+  }
+  ul {
+    padding: $zero;
+    margin: $zero;
+    li {
+      display: inline-block;
+      padding-left: $ten + 10;
+      a {
+        color: $black-color;
+      }
+    }
+  }
+}
+.home-banner {
+  img {
+    max-width: $full-width;
+    width: $full-width;
+    height: 450px;
+    object-fit: cover;
+  }
+  .slick-prev {
+    left: $fifty;
+    z-index: 1;
+  }
+  .slick-next {
+    right: $fifty;
+  }
+}

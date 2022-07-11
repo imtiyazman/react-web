@@ -7,8 +7,8 @@ import SimpleSlider from '../../components/slider';
 function Home() {
   return (
     <>
-    <div className='main-content border'>
     <SimpleSlider/>
+    <div className='main-content'>
     <div className='container'>
       <div className='row'>
         <div className='col-md-3'>
