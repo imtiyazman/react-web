@@ -1,12 +1,14 @@
 import React from 'react';
 function Footer() {
   return (
-    <div className="fluid-container">
+    <footer className='site-footer'>
+    <div className="container-fluid">
       <div className='row'>
-      <div></div>
+      <div className='col-md-3'></div>
         <div className='col-md-9'></div>
       </div>
     </div>
+    </footer>
   );
 }
 

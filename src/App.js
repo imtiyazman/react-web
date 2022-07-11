@@ -1,10 +1,11 @@
 import './App.css';
-import './css/custom.css'
+import './css/App.scss';
+import './css/custom.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // =========Added-Component==============
-import Logo from './components/logo';
+import Header from './components/header';
 import Footer from './components/footer';
 
 // =========Added-Pages==============
@@ -30,12 +31,10 @@ function App() {
     <div className="App">
       <>
       <Router>
-      <header>
+      <header className='site-header'>
       <div className='container'>
       <div className='row'>
-      <div className='col-md-2'>
-      <Logo/>   
-      </div>  
+    <div className='col-md-2 logo'><Header/></div>
       <div className='col-md-10 d-flex align-center justify-center'>
           <Navbar expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

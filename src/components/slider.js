@@ -19,7 +19,7 @@ export default class SimpleSlider extends Component  {
       slidesToScroll: 1
     };
     return (
-      <div>
+      <div className="home-banner">
         <Slider {...settings}>
         <div>
         <img src={BannerIMG1} alt="Logo"/>

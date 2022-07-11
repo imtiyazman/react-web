@@ -1,9 +1,12 @@
 import React from 'react';
+import Logo from '../images/logo.png'
 
 
 function Header() {
   return (
-        <div className='col-md-3'></div>
+    <>
+    <img src={Logo} className="App-logo" alt="logo" />
+    </>
   );
 }
 
