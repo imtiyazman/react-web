@@ -3,6 +3,7 @@ import './css/App.scss';
 import './css/custom.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'tailwindcss/tailwind.css';
 
 // =========Added-Component==============
 import Header from './components/header';
@@ -42,7 +43,14 @@ function App() {
           <Nav>
             <ul>
               <li><Link to="/">Home</Link></li>
-              <li> <Link to="/about">About</Link></li>
+              <li> <Link to="/about">About</Link>
+                <ul className='sub-menu-link'>
+                  <li>Link 1</li>
+                  <li>Link 2</li>
+                  <li>Link 3</li>
+                  <li>Link 4</li>
+                </ul>
+              </li>
               <li> <Link to="/services">Services</Link> </li>
               <li> <Link to="/faq">FAQ</Link></li>
               <li><Link to="/contact">Conact</Link></li>
